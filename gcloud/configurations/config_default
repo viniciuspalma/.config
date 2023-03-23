@@ -1,0 +1,5 @@
+[core]
+account = vinicius.palma@goflink.com
+disable_usage_reporting = False
+project = flink-core-shared
+

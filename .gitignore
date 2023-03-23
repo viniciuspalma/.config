@@ -1,0 +1,6 @@
+*credentials*
+yarn/global
+gcloud/logs
+github-copilot
+gh/hosts.yml
+gcloud/access_tokens.db
