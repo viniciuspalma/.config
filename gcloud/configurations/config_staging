@@ -1,0 +1,5 @@
+[core]
+account = vinicius.palma@goflink.com
+project = flink-core-staging
+disable_usage_reporting = False
+
