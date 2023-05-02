@@ -8,6 +8,8 @@ return require('packer').startup(function(use)
   use 'ThePrimeagen/vim-be-good'
   use 'wbthomason/packer.nvim'
 
+  use 'tpope/vim-commentary'
+  use 'christoomey/vim-tmux-navigator'
   use({
     "jose-elias-alvarez/null-ls.nvim",
     config = function()
@@ -21,14 +23,6 @@ return require('packer').startup(function(use)
     -- or                            , branch = '0.1.x',
     requires = { { 'nvim-lua/plenary.nvim' } }
   }
-
-  use({
-    'rose-pine/neovim',
-    as = 'rose-pine',
-    config = function()
-      vim.cmd('colorscheme rose-pine')
-    end
-  })
 
   use({ 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' })
   use('nvim-treesitter/playground')
@@ -60,4 +54,7 @@ return require('packer').startup(function(use)
 
   use("folke/zen-mode.nvim")
   use("github/copilot.vim")
+   -- You can alias plugin names
+  use 'Mofiqul/dracula.nvim'
 end)
+
