@@ -1,0 +1,3 @@
+[submodule "nvim/pack/gpanders/start/editorconfig.nvim"]
+	path = nvim/pack/gpanders/start/editorconfig.nvim
+	url = https://github.com/gpanders/editorconfig.nvim.git
