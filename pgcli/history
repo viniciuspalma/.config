@@ -148,3 +148,33 @@
 
 # 2023-04-20 17:10:22.847362
 +select p.sku, hub.slug, experiment_key, flag_key, price.variation_key, price.base_cent_amount from flink.price join flink.product p on p.id = price.product_id join flink.hub on hub.id = price.hub_id where price.experiment_key is not null and hub.slug = 'de_ber_alex';
+
+# 2023-05-08 12:48:42.258662
++l
+
+# 2023-05-08 12:48:51.554475
++\l
+
+# 2023-05-08 12:48:58.482210
++select p.sku, hub.slug, experiment_key, flag_key, price.variation_key, price.base_cent_amount from flink.price join flink.product p on p.id = price.product_id join flink.hub on hub.id = price.hub_id where price.experiment_key is not null and hub.slug = 'de_ber_alex';
+
+# 2023-05-08 12:49:04.168112
++select p.sku from flink.price join flink.product p on p.id = price.product_id join flink.hub on hub.id = price.hub_id where  hub.slug = 'de_ham_wand';
+
+# 2023-05-08 14:13:36.189316
++clear 
+
+# 2023-05-08 14:13:42.110919
++select p.sku, hub.slug, experiment_key, flag_key, price.variation_key, price.base_cent_amount from flink.price join flink.product p on p.id = price.product_id join flink.hub on hub.id = price.hub_id where price.experiment_key is not null and hub.slug = 'de_ber_alex';
+
+# 2023-05-08 14:13:47.542375
++select p.sku from flink.price join flink.product p on p.id = price.product_id join flink.hub on hub.id = price.hub_id where  hub.slug = 'de_ham_wand';
+
+# 2023-05-08 14:14:31.758312
++select price.id, experiment_key, flag_key, active, valid_from, valid_until from flink.price left join flink.product p on p.id = price.product_iD
+
+# 2023-05-08 14:14:43.110372
++CLEAR 
+
+# 2023-05-08 14:14:44.970431
++clear 

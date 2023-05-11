@@ -29,6 +29,8 @@
         k6
         ddosify
         ffmpeg
+        gh
+        terraform
       ];
     };
   };
