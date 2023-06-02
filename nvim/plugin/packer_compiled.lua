@@ -150,6 +150,16 @@ _G.packer_plugins = {
     path = "/Users/vinicius.palma@goflink.com/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/Users/vinicius.palma@goflink.com/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-go"] = {
+    loaded = true,
+    path = "/Users/vinicius.palma@goflink.com/.local/share/nvim/site/pack/packer/start/nvim-dap-go",
+    url = "https://github.com/leoluz/nvim-dap-go"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/vinicius.palma@goflink.com/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",

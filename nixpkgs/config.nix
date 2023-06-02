@@ -6,7 +6,7 @@
       paths = [
         git
         neovim
-    	  zsh
+    	zsh
         coreutils
         findutils
         bat
@@ -16,7 +16,12 @@
         go
         kubectl
         kubectx
-        (google-cloud-sdk.withExtraComponents [google-cloud-sdk.components.gke-gcloud-auth-plugin])
+        (
+            google-cloud-sdk.withExtraComponents [
+                google-cloud-sdk.components.gke-gcloud-auth-plugin
+                google-cloud-sdk.components.cbt
+            ]
+        )
         telepresence2
         direnv
         fzf
@@ -31,6 +36,9 @@
         ffmpeg
         gh
         terraform
+    	starship
+        pre-commit
+        delve
       ];
     };
   };

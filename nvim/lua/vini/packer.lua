@@ -56,5 +56,8 @@ return require('packer').startup(function(use)
   use("github/copilot.vim")
    -- You can alias plugin names
   use 'Mofiqul/dracula.nvim'
+  use 'mfussenegger/nvim-dap'
+  use 'leoluz/nvim-dap-go'
+  use { "catppuccin/nvim", as = "catppuccin" }
 end)
 
